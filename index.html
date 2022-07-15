@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--  link to bootstrap 5 minified css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
+  <!-- link to bootstrap 5 minified javascirpt fiile -->
+  <!-- <link rel="stylesheet" href="./bootstrap-5.0.2-dist/js/bootstrap.min.js"> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- link to our own custom font and colors css file -->
+  <link rel="stylesheet" href="customFontColor/style.css">
+  <!-- link to fontwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- link to swiper js/css for slider -->
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <script src="swiper-bundle.min.js"></script>
+<!-- link to aos for animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- navbar bar ustig full bootstrap -->
+    <div class="fullnavigation ">
+      <nav class="navbar navbar-expand-sm navbar-dark glass-background"id="navbar_top">
+        <div class="container-fluid ">
+          <a class="navbar-brand img-fluid px-lg-5 p-2" href="javascript:void(0)">
+            <img src="imgaes/logo.png" style="width:80px;" alt="" srcset="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item ">
+                <a class="active nav-link text-capitalize nav-a-font p-lg-3 act" href="#home">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize nav-a-font p-lg-3" href="#footer">explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize nav-a-font p-lg-3" href="#marketplace">marketplace</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize nav-a-font p-lg-3" href="#seller">seller</a>
+              </li>
+            </ul>
+            <form class="d-flex justify-content-center">
+              <div class="buy-logo p-2 mt-2  ">
+                <i class="fa-solid fa-cart-shopping text-white  h4 "></i>
+              </div>
+              <img src="imgaes/nav logo.png" style="width:58px;" class="img-fluid border-r-gradient shadow-lg " alt=""
+                srcset="">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar section design finished -->
+    <!-- hero section start -->
+    <div class="container-fluid text-center" id="home">
+      <div class="row pt-5 pb-5">
+        <div class="col hero-section pb-5">
+          <h2 class="display-2 f-headline-font text-white">Collect and Sell Rare</h2>
+          <br>
+          <h2 class="display-1 f-gradient-color michro-font font-weight-bolder text-capitalize">NFTs.</h3>
+            <br>
+            <div class="hero-img w-75  m-auto position-relative">
+              <img src="imgaes/main.png" class="img-fluid " style="border-radius: 15px !important;" alt="" srcset="">
+              <div class="position-absolute top-0 start-100 translate-middle  corner-box-top"></div>
+              <div class="position-absolute top-100 start-0 translate-middle  corner-box-down"></div>
+            </div>
+        </div>
+        <!--  these bellow div box are for background gradient mix  -->
+    <!-- hero-section-finished -->
+  </header>
+  <main>
+    <section>
+      <div class="container-fluid card-section-gradient  overflow-hidden">
+
+        <!--  these bellow div box are for background gradient mix  -->
+
+        <div class="container card-section p-md-5 "id="marketplace">
+          <h1  data-aos="fade-up" class="display-4 f-headline-font text-white text-center card-headline">Choose your favorite art <br>
+            <span  data-aos="fade-up" class="purple-color-text">if you want!</span>
+          </h1>
+          <div class="underline-box m-auto mb-5"></div>
+          <div class="row hidden-md-up">
+            <div class="col-md-4 mb-3">
+              <div class="card glass-background border-tenpixel border-card px-3 f-headline-font">
+                <img src="imgaes/nft 1.png" class="img-fluid" alt="" srcset="">
+                <div class="card-block">
+                  <div class="title-box d-flex justify-content-between ">
+                    <h3 class="card-title text-white">Yacht Monkey</h3>
+                    <span class="text-center  p-auto px-1 px-lg-3 bg-color-batch-new rounded text-white ">new</span>
+                  </div>
+                  <h6 class="card-subtitle text-white">price</h6>
+                  <div class="title-box d-flex justify-content-between">
+                    <p class="card-text p-y-1 text-white">23,652 usd</p>
+                    <a href="#" class="card-link text-white"><i class="fa-solid fa-clock-rotate-left"></i> &nbsp; view
+                      in history</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card glass-background border-tenpixel border-card px-3 f-headline-font">
+                <img src="imgaes/nft 2.png" class="img-fluid" alt="" srcset="">
+                <div class="card-block">
+                  <div class="title-box d-flex justify-content-between ">
+                    <h3 class="card-title text-white">Yacht Monkey</h3>
+                    <span class="text-center  p-auto px-1 px-lg-3 bg-color-batch-new rounded text-white ">new</span>
+                  </div>
+                  <h6 class="card-subtitle text-white">price</h6>
+                  <div class="title-box d-flex justify-content-between">
+                    <p class="card-text p-y-1 text-white">23,652 usd</p>
+                    <a href="#" class="card-link text-white"><i class="fa-solid fa-clock-rotate-left"></i> &nbsp; view
+                      in history</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <div class="card glass-background border-tenpixel border-card px-3 f-headline-font">
+                <img src="imgaes/nft 3.png" class="img-fluid border-radius-img pt-4" alt="" srcset="">
+                <div class="card-block">
+                  <div class="title-box d-flex justify-content-between ">
+                    <h3 class="card-title text-white">Yacht Monkey</h3>
+                    <span class="text-center  p-auto px-1 px-lg-3 bg-color-batch-new rounded text-white ">new</span>
+                  </div>
+                  <h6 class="card-subtitle text-white">price</h6>
+                  <div class="title-box d-flex justify-content-between">
+                    <p class="card-text p-y-1 text-white">23,652 usd</p>
+                    <a href="#" class="card-link text-white"><i class="fa-solid fa-clock-rotate-left"></i> &nbsp; view
+                      in history</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row hidden-md-up">
+            <div class="col-md-4 mb-3">
+              <div class="card glass-background border-tenpixel border-card px-3 f-headline-font">
+                <img src="imgaes/nft 4.png" class="img-fluid border-radius-img" alt="" srcset="">
+                <div class="card-block">
+                  <div class="title-box d-flex justify-content-between ">
+                    <h3 class="card-title text-white">Yacht Monkey</h3>
+                    <span class="text-center  p-auto px-1 px-lg-3 bg-color-batch-new rounded text-white ">new</span>
+                  </div>
+                  <h6 class="card-subtitle text-white">price</h6>
+                  <div class="title-box d-flex justify-content-between">
+                    <p class="card-text p-y-1 text-white">23,652 usd</p>
+                    <a href="#" class="card-link text-white"><i class="fa-solid fa-clock-rotate-left"></i> &nbsp; view
+                      in history</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card glass-background border-tenpixel border-card px-3 f-headline-font">
+                <img src="imgaes/nft 5.png" class="img-fluid border-radius-img" alt="" srcset="">
+                <div class="card-block">
+                  <div class="title-box d-flex justify-content-between ">
+                    <h3 class="card-title text-white">Yacht Monkey</h3>
+                    <span class="text-center  p-auto px-1 px-lg-3 bg-color-batch-new rounded text-white ">new</span>
+                  </div>
+                  <h6 class="card-subtitle text-white">price</h6>
+                  <div class="title-box d-flex justify-content-between">
+                    <p class="card-text p-y-1 text-white">23,652 usd</p>
+                    <a href="#" class="card-link text-white"><i class="fa-solid fa-clock-rotate-left"></i> &nbsp; view
+                      in history</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 ">
+              <div class="card glass-background border-tenpixel border-card px-3 f-headline-font">
+                <img src="imgaes/nft 6.png" class="img-fluid" alt="" srcset="">
+                <div class="card-block">
+                  <div class="title-box d-flex justify-content-between ">
+                    <h3 class="card-title text-white">Yacht Monkey</h3>
+                    <span class="text-center  p-auto px-1 px-lg-3 bg-color-batch-new rounded text-white ">new</span>
+                  </div>
+                  <h6 class="card-subtitle text-white">price</h6>
+                  <div class="title-box d-flex justify-content-between">
+                    <p class="card-text p-y-1 text-white">23,652 usd</p>
+                    <a href="#" class="card-link text-white"><i class="fa-solid fa-clock-rotate-left"></i> &nbsp; view
+                      in history</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="btn-section text-center pt-5">
+            <button type="button" class="view-more-btn  text-center text-white f-headline-font">view more <i
+                class="fa-solid fa-arrow-right arrow-icon"></i></button>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+        <br>
+        <!-- bestseller section -->
+        <div class="contianer-fluid best-seller-section p-md-5 pt-5 "data-aos="fade-up"id="seller">
+          <h1 class="pt-md-0 pt-5 display-4 f-headline-font  text-center text-capitalize"><span
+              class="purple-color-text">top sellers</span> </h1>
+          <div class="underline-box m-auto mb-5"></div>
+          <div class="row">
+            <div class="col">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+
+                    <div class="card text-center bestseller-card glass-background border-tenpixel border-card ">
+                      <img src="imgaes/slide 1.png" class="img-fluid" alt="">
+                      <div class="card-block">
+                        <p class="text-white f-headline-font">jhon doe</p>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card text-center bestseller-card glass-background border-tenpixel border-card ">
+                      <img src="imgaes/slide 2.png" class="img-fluid" alt="">
+                      <div class="card-block">
+                        <p class="text-white f-headline-font">roelx</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card text-center bestseller-card glass-background border-tenpixel border-card ">
+                      <img src="imgaes/slide 3.png" class="img-fluid" alt="">
+                      <div class="card-block">
+                        <p class="text-white f-headline-font">david</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card text-center bestseller-card glass-background border-tenpixel border-card ">
+                      <img src="imgaes/slide 4.png" class="img-fluid" alt="">
+                      <div class="card-block">
+                        <p class="text-white f-headline-font">miller watson</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card text-center bestseller-card glass-background border-tenpixel border-card ">
+                      <img src="imgaes/slide 5.png" class="img-fluid" alt="">
+                      <div class="card-block">
+                        <p class="text-white f-headline-font">rock jackson</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer section -->
+  <footer id="footer">
+    <div
+      class="container-fluid p-md-5 p-1 pt-5 t overflow-hidden">
+      <div class="row  glass-background border-card  border-tenpixel">
+        <div class="col-md-4 text-white f-headline-font">
+          <h1>NFTs</h1>
+          <br>
+          <p class="f-headline-font-300">
+            </pclass>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus scelerisque enim lorem eu
+            pretium, fermentum dictumst. Erat quis libero et morbi aliquet tellus lobortis magna.</p>
+          <ul class="d-flex list-unstyled text-white h4 ">
+            <li class="m-2  gradient-li"><i class="fa-brands fa-twitter"></i></li>
+            <li class="m-2 gradient-li"><i class="fa-brands fa-whatsapp"></i></li>
+            <li class="m-2 gradient-li"><i class="fa-brands fa-instagram"></i></li>
+            <li class="m-2 gradient-li"><i class="fa-solid fa-paper-plane"></i></li>
+
+          </ul>
+        </div>
+
+        <div class="col-md-4 text-white f-headline-font px-lg-5">
+          <h1 class="text-capitalize">information </h1>
+          <br>
+          <ul class="list-unstyled f-headline-font-300 text-capitalize">
+            <li><a class="text-decoration-none text-white text-left" href="#">Get Lates Updates</a></li>
+            <li><a class="text-decoration-none text-white text-left" href="#">NFT Marketplace
+              </a></li>
+            <li><a class="text-decoration-none text-white text-left" href="#">explore artwork</a></li>
+            <li><a class="text-decoration-none text-white text-left" href="#">creators</a></li>
+            <li><a class="text-decoration-none text-white text-left" href="#">how to nft</a></li>
+
+
+          </ul>
+        </div>
+        <div class="col-md-4 text-white f-headline-font">
+          <h1 class="text-capitalize">join newsletter</h1>
+          <br>
+          <p class="f-headline-font-300">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus scelerisque enim lorem eu pretium,
+            fermentum dictumst. Erat quis libero et morbi aliquet tellus lobortis magna.
+          </p>
+          <br>
+          <div class="subscribe-form position-relative p-2">
+            <input type="email" name="" placeholder="enter your mail" class="form-control ">
+
+            <i class="fa-solid fa-arrow-right position-absolute top-0 end-0 text-info px-4 py-3 mt-1 "></i>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </footer>
+  <script>
+    document.querySelector(".view-more-btn").addEventListener("click", function () {
+      alert("its work")
+    });
+
+
+    var x = window.matchMedia("(max-width: 700px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+
+    function myFunction(x) {
+      if (x.matches) { // If media query matches
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }
+        });
+      } else {
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 4,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }
+        });
+      }
+    }
+    
+
+    document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+  });
+}); 
+// D
+
+    AOS.init({
+      offset:0,
+      duration:800.
+    });
+  </script>
+
+</body>
+
+</html>
