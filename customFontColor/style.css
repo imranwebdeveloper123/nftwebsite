@@ -277,4 +277,13 @@ html{
         width: 90% !important;
     }
     
+       body{
+  background-image: url('../imgaes/lgbody-mobile.jpg');
+    }
+}
+@media only screen and (max-width:768px) {
+    body{
+  background-image: url('../imgaes/lgbody-mobile.jpg');
+    }
+    
 }
